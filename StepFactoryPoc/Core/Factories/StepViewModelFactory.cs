@@ -17,19 +17,8 @@ namespace StepFactoryPoc.Core.Factories
         }
         public BaseStepViewModel CreateStepViewModel(IStepBase step)
         {
-            switch (step)
-            {
-                case SettingsStep settingsStep:
-                    var settingsFactory = _stepViewModelFactoryResolver.Resolve<SettingsStep>();
-                    return settingsFactory.CreateStepViewModel(settingsStep);
-
-                case AccountStep accountStep:
-                    var accountFactory = _stepViewModelFactoryResolver.Resolve<AccountStep>();
-                    return accountFactory.CreateStepViewModel(accountStep);
-
-                default:
-                    throw new ArgumentException("Unknown step", nameof(step));
-            }
+            var settingsFactory = _stepViewModelFactoryResolver.Resolve(step);
+            return settingsFactory.CreateStepViewModel(step);
         }
     }
 }
