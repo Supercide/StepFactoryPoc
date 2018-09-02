@@ -1,11 +1,11 @@
 ﻿using System;
 using StepFactoryPoc.Accounts.Steps;
-using StepFactoryPoc.Core.Factories;
+using StepFactoryPoc.Core.Resolvers;
 using StepFactoryPoc.Core.Steps;
 using StepFactoryPoc.Core.ViewModels;
 using StepFactoryPoc.Settings.Steps;
 
-namespace StepFactoryPoc.Settings.Factories
+namespace StepFactoryPoc.Core.Factories
 {
     public class StepViewModelFactory : IStepViewModelFactory
     {

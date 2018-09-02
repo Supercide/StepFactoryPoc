@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using StepFactoryPoc.Controllers;
 using StepFactoryPoc.Core.Factories;
+using StepFactoryPoc.Core.Resolvers;
 using StepFactoryPoc.Dates.Steps;
-using StepFactoryPoc.Settings.Factories;
 
 namespace StepFactoryPoc.Modules
 {

@@ -1,8 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using StepFactoryPoc.Core.Factories;
 
-namespace StepFactoryPoc.Core.Factories
+namespace StepFactoryPoc.Core.Resolvers
 {
     public class StepViewModelFactoryResolver : IStepViewModelFactoryResolver
     {

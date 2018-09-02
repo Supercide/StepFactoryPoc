@@ -1,4 +1,6 @@
-﻿namespace StepFactoryPoc.Core.Factories
+﻿using StepFactoryPoc.Core.Factories;
+
+namespace StepFactoryPoc.Core.Resolvers
 {
     public interface IStepViewModelFactoryResolver
     {

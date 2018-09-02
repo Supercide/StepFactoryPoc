@@ -6,7 +6,7 @@ using StepFactoryPoc.Dates.Steps;
 using StepFactoryPoc.Settings.Steps;
 using StepFactoryPoc.Settings.ViewModels;
 
-namespace StepFactoryPoc.ViewModelFactories
+namespace StepFactoryPoc.Settings.Factories
 {
     public class SettingsViewModelFactory : IViewModelFactory
     {
